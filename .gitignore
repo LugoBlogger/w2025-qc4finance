@@ -1,0 +1,23 @@
+# .gitignore
+
+program/data/1/31bonds/TwoLocal1rep_piby3_AerSimulator_0.1/
+
+*.drawio.bkp
+*.drawio.dtmp
+
+program/_experiments/
+program/data/1/31bonds/docplex*.lp
+program/data/1/31bonds/docplex*.log
+program/data/1/31bonds/docplex*.sol
+program/data/1/31bonds/*.pkl
+program/data/1/full/
+program/data/1/gurobi/
+program/data/1/data_assets_dictionary.xlsx
+program/data/1/data_assets_dump_partial.xlsx
+program/data/README.md
+
+program/src/
+
+program/01-data-exploration.ipynb
+program/02-data-exploration-cplex.ipynb
+program/04-test_src.ipynb
