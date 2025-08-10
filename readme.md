@@ -4,7 +4,7 @@ Team name: **EntangledBitterGourd**
 Members:
 - Henokh Lugo (gst-MlaI21bO5FRYdyD)
 - Vinay K (gst-QcL1CBJvvholFTu)
-- Rutuja Pable ()
+- Rutuja Pable (gst-sOMzNWAzMWkUIOb)
 
 
 In this project, we solve the bond optimization problem
