@@ -8,7 +8,20 @@ Members:
 
 
 In this project, we solve the bond optimization problem
-using Variatonal Quantum Eigensolver Algorithm.
+using Variatonal Quantum Eigensolver algorithm based on 
+the work of (Chen, 2023) with some modification. 
+The problem that we are going to solve is defined as 
+a constrained optimization problem with the following forms
+
+<img src="./images/01-problem-statement.png" width=600>
+
+where $y_{\ell, i}$ are binary variables that determine
+whether we include a bond or not into our portfolio.
+The other symbols ($\gamma_{\ell, i}$ and $\alpha_{\ell, i}$) are parameters that are defined by the characteristic
+of the bonds $i$ and the sector $\ell$. $C$ is a constant.
+
+Alongside with the above formula, there are 19 constraints
+that are explained in the detail in the [Slides](#slides) section 
 
 ## Installation
 
