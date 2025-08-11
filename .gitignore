@@ -17,6 +17,7 @@ program/data/1/data_assets_dump_partial.xlsx
 program/data/README.md
 
 program/src/
+program/clean_data/
 
 program/01-data-exploration.ipynb
 program/02-data-exploration-cplex.ipynb

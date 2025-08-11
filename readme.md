@@ -25,12 +25,33 @@ that are explained in the detail in the [Slides](#slides) section
 
 ## Installation
 
+The following installation has been tested on Ubuntu 22.04 LTS and with GPU: Nvidia RTX 2060.
+`lightning.gpu` only support for compute capability at least 7.0. See this table
+to know for the other GeForce/RTX graphic card
+
 1. Run conda environment requirement and installation
    ```
+   conda env create -f environment.yml
+   ```
+   and after that activate the environment with `conda activate womanium2025project`
 
+2. (optional) Install Nvidia CUDA libraries and its runtimes
+   ```
+   pip install nvidia-cusparse-cu11 nvidia-cublas-cu11 nvidia-cuda-runtime-cu11 custatevec_cu11
    ```
 
-2. Run the notebook `./program/06-run-vqe.ipynb`
+3. (optional) Use CUDA Tensor Network to speed up the computation for number of qubits > 20. 
+   ```
+   pip install cutensor-cu11
+   pip install pennylane-lightning-tensor 
+   ```
+
+4. (optional) Use matrix product states with `qml.device("default.tensor")`
+   ```
+   pip install quimb
+   ```
+
+5. Run the notebook `./program/06-run-vqe.ipynb`, to see the result.
 
 
 ## Slides
